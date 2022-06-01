@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav {
+    background-color: aquamarine;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav span {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.input-CEP {
+    width: 25rem;
+    height: 2rem;
+    margin-right: 10px;
+    outline: none;
+    padding-left: 6px;
+}
+
+.btn-search {
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+
+}
+
+.cep-text {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 25px;
+
+}
+
+table {
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+	padding: 15px;
+    width: 14.8rem;
+}
+table thead td {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #bdbdbd;
+}
+table tbody tr {
+	background-color: #cfcfcf;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(odd) td:nth-child(even)  {
+    background: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+    background: #ffffff;
+    font-weight: 400;
+    text-align: center;;
+}
